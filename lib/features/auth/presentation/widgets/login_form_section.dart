@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grocery_app_clean/core/constants/login_strings.dart';
 import 'package:grocery_app_clean/core/theme/app_colors.dart';
 import 'package:grocery_app_clean/core/theme/app_text_styles.dart';
@@ -6,6 +7,7 @@ import 'package:grocery_app_clean/core/utils/validators.dart';
 import 'package:grocery_app_clean/widgets/custom_text_form_field.dart';
 import 'package:grocery_app_clean/widgets/main_button.dart';
 import 'package:grocery_app_clean/features/auth/presentation/widgets/sign_up_row.dart';
+
 class LoginFormSection extends StatelessWidget {
   final GlobalKey<FormState> formKey;
   final TextEditingController emailController;
@@ -15,6 +17,7 @@ class LoginFormSection extends StatelessWidget {
   final VoidCallback onToggleObscure;
   final ValueChanged<bool?> onToggleRemember;
   final VoidCallback onLoginPressed;
+  final VoidCallback onSignUpPressed;
   const LoginFormSection({
     super.key,
     required this.formKey,
@@ -25,19 +28,20 @@ class LoginFormSection extends StatelessWidget {
     required this.onToggleObscure,
     required this.onToggleRemember,
     required this.onLoginPressed,
+    required this.onSignUpPressed,
   });
   @override
   Widget build(BuildContext context) {
     return Transform.translate(
-      offset: const Offset(0, -30),
+      offset: Offset(0, -30.h),
       child: Container(
         width: double.infinity,
-        padding: const EdgeInsets.all(24),
-        decoration: const BoxDecoration(
+        padding: EdgeInsets.all(24.w),
+        decoration: BoxDecoration(
           color: AppColors.white,
           borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(30),
-            topRight: Radius.circular(30),
+            topLeft: Radius.circular(30.r),
+            topRight: Radius.circular(30.r),
           ),
         ),
         child: Form(
@@ -45,53 +49,55 @@ class LoginFormSection extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
+              Text(
                 LoginStrings.welcomeBackTitle,
                 style: AppTextStyles.heading1,
               ),
-              const SizedBox(height: 8),
-              const Text(
+              SizedBox(height: 8.h),
+              Text(
                 LoginStrings.signInSubtitle,
                 style: AppTextStyles.bodyMedium,
               ),
-              const SizedBox(height: 32),
+              SizedBox(height: 32.h),
               _buildEmailField(),
-              const SizedBox(height: 20),
+              SizedBox(height: 20.h),
               _buildPasswordField(),
-              const SizedBox(height: 16),
+              SizedBox(height: 16.h),
               _buildRememberMeAndForgotRow(),
-              const SizedBox(height: 32),
+              SizedBox(height: 32.h),
               _buildLoginButton(),
-              const SizedBox(height: 24),
-              const SignUpRow(),
+              SizedBox(height: 24.h),
+              SignUpRow(onSignUpPressed: onSignUpPressed),
             ],
           ),
         ),
       ),
     );
   }
+
   Widget _buildEmailField() {
     return CustomTextFormField(
       controller: emailController,
       hintText: LoginStrings.emailHint,
       keyboardType: TextInputType.emailAddress,
-      prefixIcon: const Icon(
+      prefixIcon: Icon(
         Icons.email_outlined,
         color: AppColors.textGrey,
-        size: 20,
+        size: 20.sp,
       ),
       validator: Validators.email,
     );
   }
+
   Widget _buildPasswordField() {
     return CustomTextFormField(
       controller: passwordController,
       hintText: LoginStrings.passwordHint,
       obscureText: obscurePassword,
-      prefixIcon: const Icon(
+      prefixIcon: Icon(
         Icons.lock_outline,
         color: AppColors.textGrey,
-        size: 20,
+        size: 20.sp,
       ),
       suffixIcon: IconButton(
         icon: Icon(
@@ -99,13 +105,14 @@ class LoginFormSection extends StatelessWidget {
               ? Icons.visibility_outlined
               : Icons.visibility_off_outlined,
           color: AppColors.textGrey,
-          size: 20,
+          size: 20.sp,
         ),
         onPressed: onToggleObscure,
       ),
       validator: Validators.password,
     );
   }
+
   Widget _buildRememberMeAndForgotRow() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -113,7 +120,7 @@ class LoginFormSection extends StatelessWidget {
         Row(
           children: [
             Transform.scale(
-              scale: 0.7,
+              scale: 0.7.r,
               child: Switch(
                 value: rememberMe,
                 onChanged: onToggleRemember,
@@ -122,7 +129,10 @@ class LoginFormSection extends StatelessWidget {
             ),
             Text(
               LoginStrings.rememberMeText,
-              style: AppTextStyles.caption.copyWith(color: AppColors.textGrey),
+              style: AppTextStyles.caption.copyWith(
+                color: AppColors.textGrey,
+                fontSize: 12.sp,
+              ),
             ),
           ],
         ),
@@ -133,20 +143,18 @@ class LoginFormSection extends StatelessWidget {
             style: AppTextStyles.caption.copyWith(
               color: Colors.blue[700],
               fontWeight: FontWeight.bold,
+              fontSize: 12.sp,
             ),
           ),
         ),
       ],
     );
   }
+
   Widget _buildLoginButton() {
-    return SizedBox(
-      width: double.infinity,
-      height: 56,
-      child: MainButton(
-        text: LoginStrings.loginButtonText,
-        onPressed: onLoginPressed,
-      ),
+    return MainButton(
+      text: LoginStrings.loginButtonText,
+      onPressed: onLoginPressed,
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grocery_app_clean/core/theme/app_colors.dart';
 import 'package:grocery_app_clean/features/auth/presentation/screens/login_screen.dart';
 import 'package:grocery_app_clean/widgets/custom_button.dart';
@@ -47,15 +48,15 @@ class _SplashScreenState extends State<SplashScreen> {
             SmoothPageIndicator(
               controller: controller,
               count: 3,
-              effect: const ExpandingDotsEffect(
+              effect: ExpandingDotsEffect(
                 activeDotColor: AppColors.primary,
                 dotColor: AppColors.textLightGrey,
-                dotHeight: 8,
-                dotWidth: 8,
+                dotHeight: 8.h,
+                dotWidth: 8.w,
                 expansionFactor: 2,
               ),
             ),
-            const SizedBox(height: 32),
+            SizedBox(height: 32.h),
             CustomButton(
               onNext: () {
                 if ((controller.page ?? 0) < 2) {
@@ -79,6 +80,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 );
               },
             ),
+            SizedBox(height: 20.h),
           ],
         ),
       ),

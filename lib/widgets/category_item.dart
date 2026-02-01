@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CategoryItem extends StatelessWidget {
   final String title;
@@ -17,31 +18,31 @@ class CategoryItem extends StatelessWidget {
     return Column(
       children: [
         Container(
-          height: 90,
-          width: 90,
+          height: 90.h,
+          width: 90.w,
           decoration: BoxDecoration(
             color: Colors.white,
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(16.r),
             boxShadow: [
               BoxShadow(
                 color: Colors.black.withValues(alpha: 0.05),
-                blurRadius: 8,
-                offset: const Offset(0, 4),
+                blurRadius: 8.r,
+                offset: Offset(0, 4.h),
               ),
             ],
           ),
           child: Center(
             child: CircleAvatar(
-              radius: 22,
+              radius: 22.r,
               backgroundColor: color.withValues(alpha: 0.15),
-              child: Icon(icon, color: color, size: 24),
+              child: Icon(icon, color: color, size: 24.sp),
             ),
           ),
         ),
-        const SizedBox(height: 10),
+        SizedBox(height: 10.h),
         Text(
           title,
-          style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w500),
+          style: TextStyle(fontSize: 13.sp, fontWeight: FontWeight.w500),
           textAlign: TextAlign.center,
         ),
       ],

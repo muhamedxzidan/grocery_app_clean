@@ -1,33 +1,43 @@
-
-
 // ignore_for_file: must_be_immutable, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
-import 'package:grocery_app_new/core/theme/app_colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:grocery_app_clean/core/theme/app_colors.dart';
 
+class CustomCardProfile extends StatelessWidget {
+  final String text;
+  final IconData icon;
+  final Widget navigateScreen;
 
-class AppCustomcard extends StatelessWidget {
- final  String title; 
- final IconData icon;
- void Function()? onPressed;
-   AppCustomcard({super.key,required this.title,required this.icon,this.onPressed});
+  const CustomCardProfile({
+    super.key,
+    required this.text,
+    required this.icon,
+    required this.navigateScreen,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Container(height:65 ,width: double.infinity,
+    return SizedBox(
+      height: 60.h,
       child: Card(
-                   child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Row( children: [
-                            Icon(icon,size: 40,color: AppColors.primary,),
-                            SizedBox(width: 10,),
-                            Text(title,style: TextStyle(fontSize: 22,color:AppColors.black),) ],
-                        ),
-                        IconButton(onPressed: onPressed
-                          
-                        ,icon: Icon(Icons.arrow_forward_ios,color:Colors.black,size: 20, ))
-                                
-                                 ])),
+        color: AppColors.white,
+        elevation: 0.5,
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.r)),
+        child: ListTile(
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => navigateScreen),
+            );
+          },
+          leading: Icon(icon, color: AppColors.primary, size: 24.sp),
+          title: Text(text,
+              style: TextStyle(fontSize: 16.sp, fontWeight: FontWeight.normal)),
+          trailing: Icon(Icons.arrow_forward_ios, size: 20.sp),
+        ),
+      ),
     );
   }
 }

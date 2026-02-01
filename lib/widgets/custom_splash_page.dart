@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:grocery_app_clean/core/theme/app_colors.dart';
 import 'package:grocery_app_clean/core/theme/app_text_styles.dart';
 
@@ -18,9 +19,9 @@ class CustomSplashPage extends StatelessWidget {
       children: [
         const Spacer(),
         Image.asset(image, height: MediaQuery.of(context).size.height * 0.4),
-        const SizedBox(height: 40),
+        SizedBox(height: 40.h),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 40.0),
+          padding: EdgeInsets.symmetric(horizontal: 40.w),
           child: Column(
             children: [
               Text(
@@ -30,7 +31,7 @@ class CustomSplashPage extends StatelessWidget {
                   color: AppColors.textBlack,
                 ),
               ),
-              const SizedBox(height: 16),
+              SizedBox(height: 16.h),
               Text(
                 subTitle,
                 textAlign: TextAlign.center,
