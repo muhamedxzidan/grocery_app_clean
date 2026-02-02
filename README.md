@@ -32,12 +32,8 @@ FreshGrocery is a modern, high-performance Flutter application designed to provi
 | :---: | :---: | :---: |
 | <img src="assets/images/categories_screen.png" width="230"> | <img src="assets/images/profile_screen.png" width="230"> | <img src="assets/images/favorite_screen.png" width="230"> |
 
-### 🔍 Explore More
-| Product Details | Search |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522" width="230"> | <img src="https://github.com/user-attachments/assets/1841ec7f-6bb2-4837-aab3-19cfaf643dd1" width="230"> |
-
 ---
+
 
 ## 🛠 Tech Stack
 
