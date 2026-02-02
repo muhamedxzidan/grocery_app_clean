@@ -18,24 +18,24 @@ FreshGrocery is a modern, high-performance Flutter application designed to provi
 ## 📸 Screenshots & Demo
 
 ### 🚀 Onboarding Experience (Splash)
-| Splash 1 | Splash 2 | Splash 3 |
+| Buy Grocery | Fast Delivery | Enjoy Quality Food |
 | :---: | :---: | :---: |
-| ![Splash 1](https://github.com/user-attachments/assets/1f18cb9a-c177-4312-876a-31382d8b2c70) | ![Splash 2](https://github.com/user-attachments/assets/3c53d0e0-f162-4253-a812-042d4f1ac8c2) | ![Splash 3](https://github.com/user-attachments/assets/815e331b-f821-402a-8004-130f89a49a0d) |
+| <img src="assets/images/splash1.png" width="230"> | <img src="assets/images/splash2.png" width="230"> | <img src="assets/images/splash3.png" width="230"> |
 
 ### 🔐 Authentication
 | Login Screen | Create Account |
 | :---: | :---: |
-| ![Login Screen](https://github.com/user-attachments/assets/e6a539ea-659c-40ef-8c8c-967365506ce5) | ![Create Account](https://github.com/user-attachments/assets/5d121410-c393-4305-9b51-3cdd676cdbd7) |
+| <img src="https://github.com/user-attachments/assets/e6a539ea-659c-40ef-8c8c-967365506ce5" width="230"> | <img src="https://github.com/user-attachments/assets/5d121410-c393-4305-9b51-3cdd676cdbd7" width="230"> |
 
 ### 🏠 App Content
 | Categories | Profile | Favorite |
 | :---: | :---: | :---: |
-| ![Categories](https://github.com/user-attachments/assets/e46cb8c5-f8f8-4f07-98d8-16f32aa22e0d) | ![Profile](https://github.com/user-attachments/assets/9e986080-c36b-4e3e-8cbb-a3429481bc0f) | ![Favorite](https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522) |
+| <img src="https://github.com/user-attachments/assets/e46cb8c5-f8f8-4f07-98d8-16f32aa22e0d" width="230"> | <img src="https://github.com/user-attachments/assets/9e986080-c36b-4e3e-8cbb-a3429481bc0f" width="230"> | <img src="https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522" width="230"> |
 
 ### 🔍 Explore More
 | Product Details | Search |
 | :---: | :---: |
-| ![Product Details](https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522) | ![Search](https://github.com/user-attachments/assets/1841ec7f-6bb2-4837-aab3-19cfaf643dd1) |
+| <img src="https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522" width="230"> | <img src="https://github.com/user-attachments/assets/1841ec7f-6bb2-4837-aab3-19cfaf643dd1" width="230"> |
 
 ---
 
