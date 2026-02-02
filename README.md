@@ -1,16 +1,10 @@
-# grocery_app_new
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2026-02-02 at 2 50 00 AM](https://github.com/user-attachments/assets/1f18cb9a-c177-4312-876a-31382d8b2c70)
+![WhatsApp Image 2026-02-02 at 2 50 02 AM](https://github.com/user-attachments/assets/3c53d0e0-f162-4253-a812-042d4f1ac8c2)
+![WhatsApp Image 2026-02-02 at 2 50 02 AM (1)](https://github.com/user-attachments/assets/815e331b-f821-402a-8004-130f89a49a0d)
+![WhatsApp Image 2026-02-02 at 2 50 02 AM (2)](https://github.com/user-attachments/assets/e6a539ea-659c-40ef-8c8c-967365506ce5)
+![WhatsApp Image 2026-02-02 at 2 50 03 AM](https://github.com/user-attachments/assets/5d121410-c393-4305-9b51-3cdd676cdbd7)
+![WhatsApp Image 2026-02-02 at 2 50 03 AM (1)](https://github.com/user-attachments/assets/e46cb8c5-f8f8-4f07-98d8-16f32aa22e0d)
+![WhatsApp Image 2026-02-02 at 2 50 03 AM (2)](https://github.com/user-attachments/assets/9e986080-c36b-4e3e-8cbb-a3429481bc0f)
+![WhatsApp Image 2026-02-02 at 2 50 03 AM (3)](https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522)
+![WhatsApp Image 2026-02-02 at 2 50 04 AM](https://github.com/user-attachments/assets/1841ec7f-6bb2-4837-aab3-19cfaf643dd1)
+![WhatsApp Image 2026-02-02 at 2 50 04 AM (1)](https://github.com/user-attachments/assets/be4b3482-97dd-4373-8c95-60a69387523a)
