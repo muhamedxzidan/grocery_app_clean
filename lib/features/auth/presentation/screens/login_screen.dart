@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_app_clean/core/theme/app_colors.dart';
 import 'package:grocery_app_clean/features/auth/presentation/screens/categories_screen.dart';
+import 'package:grocery_app_clean/features/auth/presentation/screens/create_account_screen.dart';
 import 'package:grocery_app_clean/features/auth/presentation/widgets/login_form_section.dart';
 import 'package:grocery_app_clean/features/auth/presentation/widgets/login_header.dart';
 
@@ -35,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
   void _onSignUpPressed() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const CategoriesScreen()),
+      MaterialPageRoute(builder: (context) => const CreateAccountScreen()),
     );
   }
 
