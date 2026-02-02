@@ -17,20 +17,25 @@ FreshGrocery is a modern, high-performance Flutter application designed to provi
 
 ## 📸 Screenshots & Demo
 
-| Splash Experience | Authentication | Browsing |
+### 🚀 Onboarding Experience (Splash)
+| Splash 1 | Splash 2 | Splash 3 |
 | :---: | :---: | :---: |
-| ![WhatsApp Image 2026-02-02 at 2 50 00 AM](https://github.com/user-attachments/assets/1f18cb9a-c177-4312-876a-31382d8b2c70) | ![WhatsApp Image 2026-02-02 at 2 50 02 AM](https://github.com/user-attachments/assets/3c53d0e0-f162-4253-a812-042d4f1ac8c2) | ![WhatsApp Image 2026-02-02 at 2 50 02 AM (1)](https://github.com/user-attachments/assets/815e331b-f821-402a-8004-130f89a49a0d) |
-| *Modern Onboarding* | *Secure Access* | *Product Showcase* |
+| ![Splash 1](https://github.com/user-attachments/assets/1f18cb9a-c177-4312-876a-31382d8b2c70) | ![Splash 2](https://github.com/user-attachments/assets/3c53d0e0-f162-4253-a812-042d4f1ac8c2) | ![Splash 3](https://github.com/user-attachments/assets/815e331b-f821-402a-8004-130f89a49a0d) |
 
-| Dashboard | Categories | Profile |
-| :---: | :---: | :---: |
-| ![WhatsApp Image 2026-02-02 at 2 50 02 AM (2)](https://github.com/user-attachments/assets/e6a539ea-659c-40ef-8c8c-967365506ce5) | ![WhatsApp Image 2026-02-02 at 2 50 03 AM](https://github.com/user-attachments/assets/5d121410-c393-4305-9b51-3cdd676cdbd7) | ![WhatsApp Image 2026-02-02 at 2 50 03 AM (1)](https://github.com/user-attachments/assets/e46cb8c5-f8f8-4f07-98d8-16f32aa22e0d) |
-| *Intuitive Dashboard* | *Organized Categories* | *User Management* |
+### 🔐 Authentication
+| Login Screen | Create Account |
+| :---: | :---: |
+| ![Login Screen](https://github.com/user-attachments/assets/e6a539ea-659c-40ef-8c8c-967365506ce5) | ![Create Account](https://github.com/user-attachments/assets/5d121410-c393-4305-9b51-3cdd676cdbd7) |
 
-| Favorites | Details | Search |
+### 🏠 App Content
+| Categories | Profile | Favorite |
 | :---: | :---: | :---: |
-| ![WhatsApp Image 2026-02-02 at 2 50 03 AM (2)](https://github.com/user-attachments/assets/9e986080-c36b-4e3e-8cbb-a3429481bc0f) | ![WhatsApp Image 2026-02-02 at 2 50 03 AM (3)](https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522) | ![WhatsApp Image 2026-02-02 at 2 50 04 AM](https://github.com/user-attachments/assets/1841ec7f-6bb2-4837-aab3-19cfaf643dd1) |
-| *Saved Items* | *Product Details* | *Smart Search* |
+| ![Categories](https://github.com/user-attachments/assets/e46cb8c5-f8f8-4f07-98d8-16f32aa22e0d) | ![Profile](https://github.com/user-attachments/assets/9e986080-c36b-4e3e-8cbb-a3429481bc0f) | ![Favorite](https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522) |
+
+### 🔍 Explore More
+| Product Details | Search |
+| :---: | :---: |
+| ![Product Details](https://github.com/user-attachments/assets/f744ad8b-0e68-4747-a902-31bfaefe6522) | ![Search](https://github.com/user-attachments/assets/1841ec7f-6bb2-4837-aab3-19cfaf643dd1) |
 
 ---
 
