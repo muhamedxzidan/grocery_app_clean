@@ -114,3 +114,5 @@ Project Link: [https://github.com/muhamedxzidan/grocery_app_clean](https://githu
 ---
 
 Developed with ❤️ for a better shopping experience.
+Team Flutter 132  ❤️ EraaSoft
+Team Leader Gr C ❤️
