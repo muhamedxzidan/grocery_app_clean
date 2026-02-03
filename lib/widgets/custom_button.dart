@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:grocery_app_clean/core/constants/splash_strings.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({super.key, required this.onNext, required this.onSkip});
@@ -15,7 +16,7 @@ class CustomButton extends StatelessWidget {
           TextButton(
             onPressed: onSkip,
             child: Text(
-              "Skip",
+              SplashStrings.skipText,
               style: TextStyle(color: Colors.grey, fontSize: 16.sp),
             ),
           ),
@@ -23,7 +24,7 @@ class CustomButton extends StatelessWidget {
           TextButton(
             onPressed: onNext,
             child: Text(
-              "Next",
+              SplashStrings.nextText,
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 16.sp,
